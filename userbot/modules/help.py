@@ -23,6 +23,5 @@ async def help(event):
             \nUsage: .help <module name>")
         string = ""
         for i in CMD_HELP:
-            string += "`" + str(i)
-            string += "`\n"
+            string += " |` " + str(i) + "`" 
         await event.reply(string)
