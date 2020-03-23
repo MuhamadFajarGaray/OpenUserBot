@@ -29,6 +29,6 @@ def get_country_data(country, world):
     
 CMD_HELP.update({
         "covid": 
-        ".coronavirus <country>\
+        ".covid <country>\
           \nUsage: Get an information about data covid-19 in your country.\n"
     })
