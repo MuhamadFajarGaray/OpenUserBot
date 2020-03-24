@@ -62,6 +62,11 @@
       "value": "/usr/bin/chromium-browser",
       "required": false
     },
+    "TELEGRAPH_SHORT_NAME": {
+      "description": "Biar ga error slur....",
+      "value": " Jarancok jancok",
+      "required": true
+    },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
       "required": false
