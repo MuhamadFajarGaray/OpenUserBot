@@ -36,4 +36,4 @@ async def _(event):
             await event.edit("Invited Successfully")
 
 
-CMD_HELP.update({"invite": ".invite (username) \nInvite gay to your groups."})
+CMD_HELP.update({"invite": ".invite <username> \n\n `Invite user or bot to your groups. Maker sure to allow another users to invite her/him on user privacy."})
