@@ -34,8 +34,5 @@ async def _(event):
                     await event.reply(str(e))
             await event.edit("Invited Successfully")
 
-CMD_HELP.update({
-    'invite':
-    '.invite (his username)\
-\nUsage: Invite user to your groups, make sure to allow user privacy.'
-})
+
+CMD_HELP.update({"invite": "Invite user to your groups, needed allow user privacy."})
